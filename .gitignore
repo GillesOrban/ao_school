@@ -1,0 +1,9 @@
+# Ignore everything except the main notebook
+*
+!aotools_lab.ipynb
+!.gitignore
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
