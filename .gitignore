@@ -1,9 +1,14 @@
 # Ignore everything except the main notebook
 *
 !aotools_lab.ipynb
+!soapy_lab.ipynb
 !noll.fits
 !requirements.txt
 !README.md
+!conf/
+!conf/*.yaml
+!videos/
+!videos/*.mp4
 !.gitignore
 
 # Jupyter
