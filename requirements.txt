@@ -1,0 +1,6 @@
+aotools
+astropy
+photutils
+pyfftw
+numba
+yaml
