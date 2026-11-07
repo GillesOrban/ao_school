@@ -3,4 +3,3 @@ astropy
 photutils
 pyfftw
 numba
-yaml
