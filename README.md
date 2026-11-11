@@ -1,6 +1,6 @@
 # AO School — Adaptive Optics simulation labs
 
-Hands-on labs for learning adaptive optics (AO) by simulation:
+Hands-on labs for learning adaptive optics (AO) by simulation using the `aotools` and the `soapy` Python packages:
 
 - **Part 1 — `aotools_lab.ipynb`** (entry point of this repo): Fourier optics and image formation, Zernike aberrations and Strehl ratio, turbulence parameters ($r_0$, seeing, $C_n^2$, $\tau_0$, $\theta_0$), phase-screen generation (FFT screens, sub-harmonics, infinite phase screens) validated against the Noll (1976) Zernike sequence, and imaging through turbulence (instantaneous vs long-exposure PSF).
 - **Part 2 — `soapy_lab.ipynb`**: end-to-end AO loop with [soapy](https://github.com/AOtools/soapy) — telescope, atmosphere, Shack–Hartmann WFS, DM, calibration (interaction matrix), closed loop.
