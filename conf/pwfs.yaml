@@ -11,16 +11,16 @@ simOversize: 2.50
 
 verbosity: 0
 
-saveCMat: False
-saveSlopes: False
+saveCMat: True
+saveSlopes: True
 saveDmCommands:   True
 saveLgsPsf: True
 saveSciPsf: True
 saveStrehl : True
 saveWfe : True
 saveSciRes : True
-saveCalic : False
-saveWfsFrames: False
+saveCalib : True
+saveWfsFrames: True
 
 Atmosphere:
   scrnNo: 1
@@ -69,7 +69,6 @@ DM:
 Reconstructor:
   type: MVM
   svdConditioning: 0.001
-  gain: 0.6
   
 Science:
   0:

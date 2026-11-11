@@ -1,4 +1,4 @@
-simName:
+simName:               # if simName is not defined (None) data are not saved
 pupilSize: 100
 nGS: 1
 nDM: 2
@@ -9,11 +9,13 @@ threads: 4
 
 verbosity: 2
 
-saveCMat: False
+saveCMat: True
 saveSlopes: True
-saveDmCommands:   False
-saveLgsPsf: False
+saveDmCommands:   True
+saveLgsPsf: True
+saveInstPsf: True
 saveSciPsf: True
+saveSciRes: True
 
 
 Atmosphere:
@@ -29,8 +31,8 @@ Atmosphere:
 
 
 Telescope:
-  telDiam: 8.
-  obsDiam: 1.1
+  telDiam: 2.4
+  obsDiam: 0 #2.1
   mask: circle
 
 WFS:
@@ -48,6 +50,7 @@ DM:
   0:
     type: TT
     closed: True
+    gain: 0.5
     iMatValue: 0.25
 
 
@@ -55,17 +58,17 @@ DM:
     type: FastPiezo
     closed: True
     nxActuators: 9
+    gain: 0.5
     iMatValue: 500
 
 Reconstructor:
   type: MVM
   svdConditioning: 0.03
-  gain: 0.6
 
 Science:
   0:
     position: [0, 0]
     FOV: 1.0
-    wavelength: 1.65e-6
+    wavelength: 1.e-6
     pxls: 64
 
