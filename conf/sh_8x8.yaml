@@ -45,6 +45,7 @@ WFS:
     pxlsPerSubap: 10
     subapFOV: 2.5
     wavelength: 600e-9
+    photonNoise: False
 
 DM:
   0:
